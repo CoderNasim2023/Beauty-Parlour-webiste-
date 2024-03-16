@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("makeup.jpg");
+    background-size: cover;
+    width: 98%;
+    height: 98vh;
+    margin: 0; /* Add this line to remove default margin */
+     /* Add this line to set font family */
+}
+
+.header {
+    width: 100%;
+    display: flex; /* Change to flex to apply justify-content */
+    justify-content: space-between;
+    color: rgb(240, 240, 245);
+    margin: 30px;
+}
+
+.header ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+}
+
+.header li {
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.header input {
+    background-color: rgb(226, 225, 225);
+    color: rgb(12, 1, 23);
+    margin:  10px;
+    margin-right: 97px;
+    border-radius: 15px;
+    font-size: 13px;
+    outline: none;
+    padding: 10px;
+}
+.header li:hover {
+    color: rgb(252, 223, 1);
+}
+
+.header button {
+    background-color: blueviolet;
+    color: white;
+    padding: 7px;
+    height: 40px;
+    width: 100px;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 18px;
+}
+
+.body-section {
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+    margin: 10% 0 0 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-section button {
+    background-color: blueviolet;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 12px;
+    width: 123px;
+    outline: none;
+    color: white;
+    padding: 10px;
+}
+
+.body-section button:hover {
+    background-color: white;
+    color: blueviolet;
+}
+
+.body-section .contact {
+    background-color: blueviolet;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+p {
+    color: white;
+}
